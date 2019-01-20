@@ -35,24 +35,31 @@ html *{
 }
 
 .intro{
-    height: 30em;
+    height: 580px;
+    width: auto;
     text-align: center;
-    /* background-image: url("pictures/cottage.jpg"); */
+    background-image: url("pictures/intro-background.jpg");
+    background-size: cover;
 }
 
 .center-block-intro{
-    margin: 10% auto 10% auto;
+    margin: 14% auto 10% auto;
 }
 
 .intro-title{
     font-size: 70pt;
     font-weight: 200;
     /* color: white; */ 
+    
 }
 
 .section-title{
     font-weight: 300;
     font-size: 3em;
+}
+
+.section-title-td{
+    padding-top: 2%;
 }
 
 .line{
@@ -169,19 +176,31 @@ ul, menu, dir {
 
 .description-container{
     margin-bottom: 3%;
+    padding-top: 1%;
+    padding-left: 3%;
 }
 
 .project-item{
     margin: 4% 0 4% 0;
 }
 
-.project-img{
-    height: 300px;
+.project-img-mock{
+    max-height: 280px;
+    height: auto;
     width: auto;
 }
 
+
+.project-img{
+    max-height: 300px;
+    height: auto;
+    max-width: 500px;
+    width: auto;
+    padding: 0 2% 0 2%;
+}
+
 .project-img-cap{
-    padding-top: 8%;
+    padding: 8% 4% 0 4%;
 }
 
 .project-pres-title{
@@ -218,4 +237,20 @@ ul, menu, dir {
     color: red;
     height: 20px;
     margin-right: 10%;
+}
+
+.hack-title{
+    margin: 4% auto 4% auto;
+    font-weight: 400;
+    font-size: 35pt;
+}
+
+.hack-cap{
+        margin: 2% 22% 6% 22% ;
+}
+
+.hack-pp-img{
+    padding: 0 2% 0 2%;
+    width: 70%;
+    height: auto;
 }
