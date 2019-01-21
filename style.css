@@ -200,11 +200,11 @@ ul, menu, dir {
 }
 
 .project-img-cap{
-    padding: 8% 4% 0 4%;
+    padding: 6% 4% 0 4%;
 }
 
 .project-pres-title{
-    margin: 6% auto 2% auto;
+    margin: 4% auto 2% auto;
     font-weight: 300;
     font-size: 30pt;
 }
@@ -214,7 +214,7 @@ ul, menu, dir {
 }
 
 .project-pres-cap{
-    margin: 2% 22% 6% 22% ;
+    margin: 2% 28% 6% 28% ;
     
 }
 
@@ -253,4 +253,38 @@ ul, menu, dir {
     padding: 0 2% 0 2%;
     width: 70%;
     height: auto;
+}
+
+.collide-problem-container{
+    margin: 4% 10% 6% 10%;
+}
+
+.collide-problem-img{
+    padding: 1% 2% 1% 2%;
+    width: 90%;
+    height: auto;
+}
+
+.collide-problem{
+    margin: 1% 5% 1% 5%;
+}
+
+.collide-problem-img-full{
+    padding: 4% 2% 1% 2%;
+    width: 50%;
+    height: auto;
+}
+
+.collide-problem-full{
+    margin: 1% 25% 1% 25%;
+}
+
+.collide-problem-q{
+    margin: 4% 20% 0 20%;
+    font-size: 30pt;
+}
+
+.tagline{
+    color: #01D3C2;
+    font-size: 35pt;
 }
