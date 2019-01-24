@@ -38,7 +38,7 @@ html *{
     height: 580px;
     width: auto;
     text-align: center;
-    background-image: url("pictures/intro-background.jpg");
+    background-image: url("src/pictures/intro-background.jpg");
     background-size: cover;
 }
 
@@ -87,18 +87,18 @@ html *{
 }
 
 .contact-container{
-    height: 250px;
     background-color: #F2F2F2;
 }
 
 .contact-title{
-    margin: 5% 0 2% 0;
+    padding: 6% 0 2% 5%;
     font-weight: 300;
     font-size: 24pt;
 }
 
 .contact-summary{
-    padding-right: 100px;
+    padding: 0 5% 7% 5%;
+   
 }
 
 .contact-info{
