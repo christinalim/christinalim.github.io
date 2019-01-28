@@ -91,13 +91,13 @@ html *{
 }
 
 .contact-title{
-    padding: 6% 0 2% 5%;
+    padding: 4% 0 2% 5%;
     font-weight: 300;
     font-size: 24pt;
 }
 
 .contact-summary{
-    padding: 0 5% 7% 5%;
+    padding: 0 5% 6% 5%;
    
 }
 
@@ -122,8 +122,6 @@ html *{
     text-decoration: none;
 }
 
-
-
 ul, menu, dir {
     list-style-type: none;
 
@@ -144,6 +142,10 @@ ul, menu, dir {
     padding: 8% 10% 4% 10%;
 }
 
+.sub-about-summary{
+    padding: 6% 5% 4% 6%;
+}
+
 .about-summary-title{
     padding-bottom: 20px;
     font-weight: 400;
@@ -153,10 +155,18 @@ ul, menu, dir {
     padding: 8% 1% 4% 10%;
 }
 
+.sub-pic-carousel{
+    padding: 6% 0 4% 4%;
+}
+
 .carousel{ 
     width: 300px;
     height: 400px;
+}
 
+.sub-carousel{
+    width: 250px;
+    height: 300px;
 }
 
 .carousel-inner{
@@ -168,6 +178,11 @@ ul, menu, dir {
     width: 300px;
     height: 400px;
 }
+
+.sub-carousel-item{
+    width: 240px;
+    height: 320px;
+} 
 
 .about-quote{
     margin: 4% 20% auto 20%;
