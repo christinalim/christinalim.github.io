@@ -184,6 +184,14 @@ ul, menu, dir {
     height: 320px;
 } 
 
+.carousell-description{
+    font-size: 10pt;
+    text-align: center;
+    padding-top: 2%;
+    color: grey;
+
+}
+
 .about-quote{
     margin: 4% 20% auto 20%;
     text-align: center;
