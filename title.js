@@ -1,6 +1,7 @@
 var i = 0;
 var txt = "Hi, I'm Christina."; /* The text */
 var speed = 100; /* The speed/duration of the effect in milliseconds */
+// var text='Cest';
 
 function typeWriter() {
   if (i < txt.length) {
@@ -10,7 +11,3 @@ function typeWriter() {
   }
 }
 
-function pageScroll() {
-    window.scrollBy(0,10);
-    scrolldelay = setTimeout(pageScroll,10);
-}
